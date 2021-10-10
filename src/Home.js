@@ -12,6 +12,7 @@ export default class Home extends Component {
             <h1>Use Params</h1>
             <button onClick={ () => {this.navigateToFilter('./filter?product=iPhone&model=13')}}>Go to Filter</button>
             <button onClick={ () => {this.navigateToFilter('./products')}}>Go to Products</button>
+            <button onClick={ () => {this.navigateToFilter('./todos')}}>Go to Todos</button>
             </center>
             </div>
         )

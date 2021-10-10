@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Router from './Router'
-
+import Router from './Router';
+import RouterNested from './RouterNested'
 
 ReactDOM.render(
   <React.StrictMode>
